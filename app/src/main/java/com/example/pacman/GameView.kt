@@ -7,7 +7,7 @@ import android.view.SurfaceView
 class GameView : SurfaceView {
     constructor(ctx: Context) : super(ctx)
 
-    val isPlaying: Boolean = true
+    private var isPlaying: Boolean = true
 
     // called before run()
     // setups initial character, environment, and item positions
